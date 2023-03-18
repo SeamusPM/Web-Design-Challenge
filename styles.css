@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    background-color: #4aaaa5;
+    color: white;
+}
+.nav li a{
+    color: black;
+}
+.navbar{
+    position: relative;
+    top: 10px;
+}
+.icon-bar{
+    background-color: black;
+}
+/* Landing page Start*/
+.main-landing{
+    background-color: #ededed;
+    padding: 50px 0;
+}
+.summary{
+    background-color: white;
+    padding: 20px;
+}
+.summary h2{
+    font-weight: bold;
+    color: #4aaaa5;
+}
+.summary p{
+    line-height: 30px;
+    font-size: 18px;
+}
+.visualization{
+    background-color: white;
+    padding: 20px;
+}
+.visualization h2{
+    font-weight: bold;
+    color: #4aaaa5;
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+.image {
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.image img {
+    display: block;
+}
+
+.image.left{
+    max-width: 40%;
+}
+
+.image.left img{
+    width: 100%;
+}
+
+.image.left {
+    float: left;
+    margin: 0 2rem 2rem 0;
+    top: 0.75rem;
+}
+
+/* Landing page end */
+
+/* Comparison page */
+.vs{
+    color: #4aaaa5;
+    font-weight: bold;
+    text-align: center;
+}
+/* Data page */
+.d-head{
+    color: #4aaaa5;
+    font-weight: bold;
+}
+.table-div{
+    max-width: 100%;
+    overflow-x: scroll;
+}
+.data{
+    background-color: white;
+    padding: 20px;
+}
+th{
+    background-color: white;
+}
+tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+
+/* Visualizations pages */
+.plot{
+    background-color: white;
+    padding: 20px;
+}
+.plot h2{
+    color: #4aaaa5;
+    font-weight: bold;
+ }
+.active{
+    border: 2px solid #4aaaa5;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 767px){
+    .summary h2 , .visualization h2{
+        font-size: 22px;
+    }
+    .summary p{
+        line-height: 25px;
+        font-size: 16px;
+    }
+    .visualization{
+        background-color: white;
+        padding: 20px;
+    }
+}
